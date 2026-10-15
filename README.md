@@ -28,3 +28,9 @@ Browser console messages and uncaught page errors are attached as
 ```bash
 npm run test:report
 ```
+
+## Test case workflow
+
+For the review-gated process from Excel test cases through Bestest, POM
+implementation, and execution, see the
+[Bestest test workflow](.claude/skills/bestest-test-workflow/SKILL.md).
