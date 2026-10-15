@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "playwright test",
+    "test:bestest": "playwright test --reporter=html,./utils/bestestReporter.ts",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.0.0",
+    "dotenv": "^18.0.8",
     "typescript": "^5.9.0"
   }
 }
